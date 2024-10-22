@@ -1,6 +1,6 @@
 # Configuration
-baseURL: "https://example.com/"
-title: "Hextra"
+baseURL: "https://cvfa.ir/"
+title: "آوای مشترک موزیلا"
 
 enableRobotsTXT: true
 enableGitInfo: true
@@ -16,23 +16,15 @@ outputs:
   page: [HTML]
   section: [HTML, RSS]
 
-defaultContentLanguage: en
+defaultContentLanguage: fa
 languages:
-  en:
-    languageName: English
-    weight: 1
-    title: Hextra
-  zh-cn:
-    languageName: 简体中文
-    languageCode: zh-CN
-    weight: 2
-    title: Hextra
   fa:
     languageName: فارسی
     languageCode: fa
     languageDirection: rtl
-    weight: 3
-    title: هگزترا
+    weight: 1
+    title: آوای مشترک موزیلا
+
 
 module:
   hugoVersion:
@@ -53,32 +45,6 @@ markup:
 enableInlineShortcodes: true
 
 menu:
-  main:
-    - identifier: documentation
-      name: Documentation
-      pageRef: /docs
-      weight: 1
-    - identifier: showcase
-      name: Showcase
-      pageRef: /showcase
-      weight: 2
-    - identifier: blog
-      name: Blog
-      pageRef: /blog
-      weight: 3
-    - identifier: about
-      name: About
-      pageRef: /about
-      weight: 4
-    - name: Search
-      weight: 5
-      params:
-        type: search
-    - name: GitHub
-      weight: 6
-      url: "https://github.com/imfing/hextra"
-      params:
-        icon: github
 
   sidebar:
     - identifier: more
